@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browser" value="ch"/>
+    <classes>
+      <class name="trendYol.trendYolCase.Bölüm1.MainTest">
+        <methods>
+          <include name="browserParameter"/>
+          <include name="RandomMenuSelectionAndImageControl"/>
+          <include name="tearDown"/>
+          <include name="AddingBasket"/>
+          <include name="initialize"/>
+          <include name="ProductSelection"/>
+          <include name="loginTrendyol"/>
+          <include name="ControlAllTabs"/>
+        </methods>
+      </class> <!-- trendYol.trendYolCase.Bölüm1.MainTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
